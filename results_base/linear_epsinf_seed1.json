@@ -1,0 +1,33 @@
+{
+  "method": "linear",
+  "model": "facebook/dinov2-base",
+  "epsilon": Infinity,
+  "delta": 1e-05,
+  "noise_multiplier": 0.0,
+  "seed": 1,
+  "hparams": {
+    "epochs": 50,
+    "lr": 0.001,
+    "batch_size": 1024,
+    "physical_batch": 1024,
+    "clip": 1.0
+  },
+  "val": {
+    "overall": 0.611970089330523,
+    "I-II": 0.6123490598818563,
+    "n_I-II": 1163,
+    "III-IV": 0.6154950349126713,
+    "n_III-IV": 912,
+    "V-VI": 0.5906315513626834,
+    "n_V-VI": 327
+  },
+  "test": {
+    "overall": 0.6140811320413571,
+    "I-II": 0.6090253285438411,
+    "n_I-II": 1167,
+    "III-IV": 0.6286083017277707,
+    "n_III-IV": 916,
+    "V-VI": 0.5847332743884468,
+    "n_V-VI": 319
+  }
+}

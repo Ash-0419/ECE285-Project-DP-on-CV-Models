@@ -1,0 +1,15 @@
+# data: too large, and not ours to redistribute
+Datasets/
+*.jpg
+*.png
+
+# cached DINOv2 features and model weights
+*.pt
+*.pth
+*.safetensors
+
+# Python / macOS clutter
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
